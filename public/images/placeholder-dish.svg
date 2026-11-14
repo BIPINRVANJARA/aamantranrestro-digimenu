@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="450" viewBox="0 0 600 450" fill="none">
+  <rect width="600" height="450" fill="#F4F8EE"/>
+  <circle cx="300" cy="210" r="90" fill="#EFF6E6" stroke="#A8D83F" stroke-width="3" stroke-dasharray="6 6"/>
+  <circle cx="300" cy="210" r="70" fill="#A8D83F" fill-opacity="0.25"/>
+  <path d="M270 215C270 198.431 283.431 185 300 185C316.569 185 330 198.431 330 215C330 225.5 324.5 234 316 238V248H284V238C275.5 234 270 225.5 270 215Z" fill="#527B20"/>
+  <rect x="290" y="252" width="20" height="6" rx="3" fill="#263B19"/>
+  <path d="M292 173C292 168 296 164 300 164C304 164 308 168 308 173" stroke="#527B20" stroke-width="4" stroke-linecap="round"/>
+  <text x="300" y="305" text-anchor="middle" font-family="'Manrope', sans-serif" font-size="18" font-weight="700" fill="#263B19">AAMANTRAN</text>
+  <text x="300" y="330" text-anchor="middle" font-family="'Inter', sans-serif" font-size="13" font-weight="500" fill="#72776D">Fresh Preparation • Authentic Taste</text>
+</svg>

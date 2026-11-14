@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Gujarati:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #A8D83F;
+  --color-primary-dark: #527B20;
+  --color-primary-deeper: #263B19;
+  --color-bg: #F8FAF5;
+  --color-bg-light: #EFF6E6;
+  --color-text-main: #20251D;
+  --color-text-secondary: #72776D;
+  --color-border: #E5E9DE;
+  --font-sans: 'Inter', 'Noto Sans Gujarati', system-ui, sans-serif;
+  --font-heading: 'Manrope', 'Noto Sans Gujarati', system-ui, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-bg);
+  color: var(--color-text-main);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Hide scrollbar for category navigation */
+.hide-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Gujarati text rendering */
+.gujarati {
+  font-family: 'Noto Sans Gujarati', sans-serif;
+}
